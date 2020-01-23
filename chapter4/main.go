@@ -19,8 +19,13 @@ func main() {
 	
 	x := "Hello World"
 	fmt.Println(x)
+
+	var (
+		a = 5
+		b = 10
+		c = 15
+	)
+	
+	fmt.Println(a,b,c)
 }
 
-func f() {
-	fmt.Println(x)
-}
